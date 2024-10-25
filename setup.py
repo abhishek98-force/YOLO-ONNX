@@ -13,7 +13,9 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/trainyolo/YOLO-ONNX",
     install_requires=[
-        "onnxruntime==1.19.0"
+        "onnxruntime==1.19.0",
+        "pillow",
+        "numpy"
     ],
     packages=[
         "yolo_onnx"
